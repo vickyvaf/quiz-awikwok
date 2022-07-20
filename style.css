@@ -10,9 +10,62 @@ body {
     height: 100vh;
 }
 
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.wrapper > img {
+    margin-top: 65px;
+}
+
+.wrapper > span {
+    margin-top: 20px;
+    background-color: #FFDD00;
+    padding: 10px 35px;
+    border-radius: 40px;
+    color:#010E14;
+    font-weight: bold;
+}
+
+.option {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.option-link > img {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    padding: 0 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.option-link > button {
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    margin: 0 5px 0 5px;
+}
+
 .answer {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .container-quiz {
