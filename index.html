@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TTV</title>
+    <title>VAF Quiz</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,11 @@
 </head>
 
 <body>
+    <!-- Answer -->
+    <div class="answer">
+        <h2 id="answer"></h2>
+    </div>
+
     <!-- Quiz Place -->
     <div class="container-quiz">
         <div class="quiz">
@@ -24,8 +30,8 @@
     <!-- Submit Place -->
     <div class="container-submit">
         <div class="submit">
-            <input type="text" name="" id="" placeholder="Apa hayoo ?">
-            <button onclick="jawab" style="width: 70px; height: 44px;">JAWAB</button>
+            <input type="text" name="" id="menjawab" placeholder="Apa hayoo ?">
+            <button onclick="jawab()" style="width: 70px; height: 44px;">JAWAB</button>
         </div>
     </div>
 
