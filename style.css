@@ -169,7 +169,7 @@ button {
     margin: 20px auto;
 }
 
-a {
+.option-link > button > a {
     text-decoration: none;
     color: white;
 }
