@@ -11,16 +11,16 @@ function jawab() {
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
         })
-    } else if (jawaban === "") {
+    } else if (jawaban == "") {
         Swal.fire({
-            icon: 'error',
-            title: 'Salah, coba lagi yaa',
+            icon: 'question',
+            title: 'Kamu belum menjawab',
             confirmButtonText: 'Ulangi',
         })
     } else {
         Swal.fire({
-            icon: 'question',
-            title: 'Kamu belum menjawab',
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
             confirmButtonText: 'Ulangi',
         });
     }
