@@ -168,8 +168,3 @@ button {
 .quiz-level-2 > p {
     margin: 20px auto;
 }
-
-.option-link > button > a {
-    text-decoration: none;
-    color: white;
-}
