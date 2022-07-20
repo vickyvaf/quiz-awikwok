@@ -11,10 +11,16 @@ function jawab() {
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
         })
-    } else {
+    } else if (jawaban === "") {
         Swal.fire({
             icon: 'error',
             title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+        })
+    } else {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
             confirmButtonText: 'Ulangi',
         });
     }
@@ -30,6 +36,12 @@ function jawab2() {
             confirmButtonText: 'Lanjut',
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
         })
     } else {
         Swal.fire({
