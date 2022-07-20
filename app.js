@@ -8,6 +8,28 @@ function jawab() {
             icon: 'success',
             title: 'Horee kamu benar!!!',
             confirmButtonText: 'Lanjut',
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+        });
+    }
+}
+
+function jawab2() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "react" || jawaban == "React" || jawaban == "reactjs" ||jawaban == "ReactJs" || jawaban == "ReactJS") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Horee kamu benar!!!',
+            confirmButtonText: 'Lanjut',
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
         })
     } else {
         Swal.fire({
