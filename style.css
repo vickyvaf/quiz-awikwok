@@ -18,13 +18,14 @@ body {
 }
 
 .wrapper > img {
-    margin-top: 65px;
+    margin-top: 40px;
 }
 
 .wrapper > span {
     margin-top: 20px;
     background-color: #FFDD00;
-    padding: 10px 35px;
+    padding: 8px 70px;
+    border: solid gray 1px;
     border-radius: 40px;
     color:#010E14;
     font-weight: bold;
@@ -67,6 +68,11 @@ body {
     margin-bottom: 30px;
 }
 
+.container-quiz-2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
 .quiz {
     margin: 0 auto;
     width: 370px;
@@ -88,6 +94,12 @@ body {
     display: flex;
     justify-contenty: center;
     margin: 0 10px;
+}
+
+.container-submit-2 {
+    display: flex;
+    justify-contenty: center;
+    margin: 120px 5px 0 5px;
 }
 
 .submit {
