@@ -13,7 +13,7 @@ function start () {
     }).then((result) => {
         if (result.isConfirmed) {
             Swal.fire({
-                title: '<a href="level-1.html">Level 1<a/>',
+                title: '<a href="level-1.html"><strong>Level 1</strong><a/>',
                 showConfirmButton: false,
             })
         }
@@ -25,8 +25,8 @@ function level() {
         showCloseButton: true,
         showConfirmButton: false,
         allowOutsideClick: false,
-        imageUrl: ("/img/cat-space.gif"),
-        imageWidth: 150,
+        imageUrl: 'https://i0.wp.com/thumbs.gfycat.com/CaringCreepyAtlanticsharpnosepuffer-size_restricted.gif?resize=650,400',
+        imageWidth: 200,
         html: 'Masih dalam tahap pengembangan, pilihan level masih terbatas. Kamu bisa langsung klik tombol <strong><em>Ayo Mulai</em></strong> 😙',
     })
 }
@@ -47,7 +47,7 @@ function jawab() {
     // let jawaban = document.getElementById("jawab");
     let jawaban = menjawab.value;
 
-    if (jawaban == "go" || jawaban == "Go" || jawaban == "GO" ||jawaban == "golang" || jawaban == "Golang" || jawaban == "GoLang" || jawaban == "GOLANG") {
+    if (jawaban == "false" || jawaban == "False" || jawaban == "FALSE") {
         Swal.fire({
             icon: 'success',
             title: 'Horee kamu benar!!!',
