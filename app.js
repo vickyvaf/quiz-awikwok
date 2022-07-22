@@ -191,3 +191,75 @@ function jawab4() {
         });
     }
 }
+
+function jawab5() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "horizontal" || jawaban == "HORIZONTAL" || jawaban == "Horizontal") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Skuy lanjut',
+            html: "<strong><a href='level-6.html'>Level 6</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab6() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "objek" || jawaban == "Objek" || jawaban == "OBJEK" || jawaban == "obyek") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu Benar!!',
+            html: "<strong><a href='level-7.html'>Level 7</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
