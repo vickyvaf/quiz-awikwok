@@ -53,7 +53,7 @@ function jawab() {
     if (jawaban == "false" || jawaban == "False" || jawaban == "FALSE") {
         Swal.fire({
             icon: 'success',
-            title: 'Horee kamu benar!!!',
+            title: 'Gampang Lah Yaaa',
             html: "<strong><a href='level-2.html'>Level 2</strong></a>",
             confirmColorText: '#fff',
             confirmButtonColor: "#01A66F",
@@ -90,7 +90,7 @@ function jawab2() {
     if (jawaban == "0" || jawaban == "nol" || jawaban == "Nol" ||jawaban == "NOL") {
         Swal.fire({
             icon: 'success',
-            title: 'Horee kamu benar!!!',
+            title: 'Masih gampang kan cuy',
             html: "<strong><a href='level-3.html'>Level 3</strong></a>",
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
@@ -126,7 +126,7 @@ function jawab3() {
     if (jawaban == "react" || jawaban == "React" || jawaban == "REACT" ||jawaban == "3" || jawaban == 3 || jawaban =="r" || jawaban == "R") {
         Swal.fire({
             icon: 'success',
-            title: 'Horee kamu benar!!!',
+            title: 'Yok lanjut',
             html: "<strong><a href='level-4.html'>Level 4</strong></a>",
             showConfirmButton: false,
             confirmButtonColor: "#01A66F",
@@ -162,7 +162,7 @@ function jawab4() {
     if (jawaban == "1" || jawaban == "satu" || jawaban == "Satu" ||jawaban == "SATU") {
         Swal.fire({
             icon: 'success',
-            title: 'Horee kamu benar!!!',
+            title: 'Wahh penebak handal kamu yaa',
             html: "<strong><a href='level-5.html'>Level 5</strong></a>",
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
