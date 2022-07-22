@@ -54,10 +54,12 @@ function jawab() {
         Swal.fire({
             icon: 'success',
             title: 'Horee kamu benar!!!',
-            confirmButtonText: "<a href='level-2.html'>Lanjut</a>",
+            html: "<strong><a href='level-2.html'>Level 2</strong></a>",
             confirmColorText: '#fff',
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         })
     } else if (jawaban == "") {
         Swal.fire({
@@ -66,6 +68,8 @@ function jawab() {
             confirmButtonText: 'Ulangi',
             confirmButtonColor: "#1E2F97",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         })
     } else {
         Swal.fire({
@@ -74,6 +78,8 @@ function jawab() {
             confirmButtonText: 'Ulangi',
             confirmButtonColor: "#1E2F97",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         });
     }
 }
@@ -81,13 +87,15 @@ function jawab() {
 function jawab2() {
     let jawaban = menjawab.value;
 
-    if (jawaban == "react" || jawaban == "React" || jawaban == "reactjs" ||jawaban == "ReactJs" || jawaban == "ReactJS") {
+    if (jawaban == "0" || jawaban == "nol" || jawaban == "Nol" ||jawaban == "NOL") {
         Swal.fire({
             icon: 'success',
             title: 'Horee kamu benar!!!',
-            confirmButtonText: 'Lanjut',
+            html: "<strong><a href='level-3.html'>Level 3</strong></a>",
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         })
     } else if (jawaban == "") {
         Swal.fire({
@@ -96,6 +104,8 @@ function jawab2() {
             confirmButtonText: 'Ulangi',
             confirmButtonColor: "#1E2F97",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         })
     } else {
         Swal.fire({
@@ -104,6 +114,80 @@ function jawab2() {
             confirmButtonText: 'Ulangi',
             confirmButtonColor: "#1E2F97",
             allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab3() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "react" || jawaban == "React" || jawaban == "REACT" ||jawaban == "3" || jawaban == 3 || jawaban =="r" || jawaban == "R") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Horee kamu benar!!!',
+            html: "<strong><a href='level-4.html'>Level 4</strong></a>",
+            showConfirmButton: false,
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            showConfirmButton: false,
+            allowOutsideClick: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab4() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "1" || jawaban == "satu" || jawaban == "Satu" ||jawaban == "SATU") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Horee kamu benar!!!',
+            html: "<strong><a href='level-5.html'>Level 5</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
         });
     }
 }
