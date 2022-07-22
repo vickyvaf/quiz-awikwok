@@ -10,6 +10,31 @@ function start () {
         cancelButtonText: 'TYDACK 😣',
         allowOutsideClick: false,
         reverseButtons: true,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: '<a href="level-1.html">Level 1<a/>',
+                showConfirmButton: false,
+            })
+        }
+    })
+}
+
+function level() {
+    Swal.fire({
+        showConfirmButton: false,
+        text: 'Masih dalam tahap pengembangan, pilihan level masih terbatas. Kamu bisa langsung klik tombol Ayo Mulai 😙',
+    })
+}
+
+function caraMain() {
+    Swal.fire({
+        imageUrl: 'https://cdn141.picsart.com/354073044035211.png?to=crop&type=webp&r=310x310&q=50',
+        imageWidth: 200,
+        text: 'Ngapain liat tutorial, tinggal main aja cuy 🤣 \n Game ini sangat mudah pake banget lochhh 😏',
+        confirmButtonText: 'Saya Mengerti',
+        confirmButtonColor: "#FFC100",
+        allowOutsideClick: false,
     })
 }
 
@@ -22,7 +47,7 @@ function jawab() {
         Swal.fire({
             icon: 'success',
             title: 'Horee kamu benar!!!',
-            confirmButtonText: 'Lanjut',
+            confirmButtonText: "<a href='level-2.html'>Lanjut</a>",
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
         })
@@ -73,15 +98,4 @@ function jawab2() {
             allowOutsideClick: false,
         });
     }
-}
-
-function caraMain() {
-    Swal.fire({
-        imageUrl: 'https://cdn141.picsart.com/354073044035211.png?to=crop&type=webp&r=310x310&q=50',
-        imageWidth: 200,
-        text: 'Ngapain liat tutorial, tinggal main aja cuy 🤣 \n Game ini sangat mudah pake banget lochhh 😏',
-        confirmButtonText: 'Saya Mengerti',
-        confirmButtonColor: "#FFC100",
-        allowOutsideClick: false,
-    })
 }
