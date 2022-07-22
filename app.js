@@ -22,8 +22,12 @@ function start () {
 
 function level() {
     Swal.fire({
+        showCloseButton: true,
         showConfirmButton: false,
-        text: 'Masih dalam tahap pengembangan, pilihan level masih terbatas. Kamu bisa langsung klik tombol Ayo Mulai 😙',
+        allowOutsideClick: false,
+        imageUrl: ("/img/cat-space.gif"),
+        imageWidth: 150,
+        html: 'Masih dalam tahap pengembangan, pilihan level masih terbatas. Kamu bisa langsung klik tombol <strong><em>Ayo Mulai</em></strong> 😙',
     })
 }
 
