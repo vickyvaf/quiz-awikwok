@@ -14,7 +14,10 @@ function start () {
         if (result.isConfirmed) {
             Swal.fire({
                 title: '<a href="level-1.html"><strong>Level 1</strong><a/>',
+                footer: 'Main dari level 1 dulu ya bosque 😎',
                 showConfirmButton: false,
+                allowOutsideClick: false,
+                showCloseButton: true,
             })
         }
     })
