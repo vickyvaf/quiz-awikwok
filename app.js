@@ -48,6 +48,7 @@ function jawab() {
             icon: 'success',
             title: 'Horee kamu benar!!!',
             confirmButtonText: "<a href='level-2.html'>Lanjut</a>",
+            confirmColorText: '#fff',
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
         })
