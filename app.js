@@ -46,8 +46,6 @@ function caraMain() {
 }
 
 function jawab() {
-    // document.getElementById("answer").innerHTML = "SALAH BRODI 😁";
-    // let jawaban = document.getElementById("jawab");
     let jawaban = menjawab.value;
 
     if (jawaban == "false" || jawaban == "False" || jawaban == "FALSE") {
@@ -240,6 +238,159 @@ function jawab6() {
             allowOutsideClick: false,
             showConfirmButton: false,
             showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab7() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "100") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu Benar!!',
+            html: "<strong><a href='level-8.html'>Level 8</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab8() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "false" || jawaban == "False" || jawaban == "FALSE") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu Benar!!',
+            html: "<strong><a href='level-9.html'>Level 9</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab9() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "false" || jawaban == "False" || jawaban == "FALSE") {
+        Swal.fire({
+            icon: 'success',
+            title: 'Kamu Benar!!',
+            html: "<strong><a href='level-10.html'>Level 10</strong></a>",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else if (jawaban == "") {
+        Swal.fire({
+            icon: 'question',
+            title: 'Kamu belum menjawab',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        })
+    } else {
+        Swal.fire({
+            icon: 'error',
+            title: 'Salah, coba lagi yaa',
+            confirmButtonText: 'Ulangi',
+            confirmButtonColor: "#1E2F97",
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+        });
+    }
+}
+
+function jawab10() {
+    let jawaban = menjawab.value;
+
+    if (jawaban == "bootstrap" || jawaban == "Bootstrap" || jawaban == "BOOTSTRAP") {
+        Swal.fire({
+            icon: 'success',
+            title: 'UHUYY. Season 1 udah tamat ya cuyy GG!!! 😱',
+            confirmButtonText: "Season 2",
+            confirmButtonColor: "#01A66F",
+            allowOutsideClick: false,
+            showCloseButton: true,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    text: 'Untuk season 2 sedang tahap pengembangan. Makasih ya cuy udah nyelesain sampe level 10 Nice lah 🔥 gg gimang ma boi 😎',
+                    footer: '<a href="index.html">Back to homepage</a>',
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    showCloseButton: true,
+                })
+            }
         })
     } else if (jawaban == "") {
         Swal.fire({
