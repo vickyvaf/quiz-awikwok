@@ -13,7 +13,7 @@ function start() {
     }).then((result) => {
         if (result.isConfirmed) {
             Swal.fire({
-                title: '<a href="level-1.html"><strong>Level 1</strong><a/>',
+                title: '<a href="level-1.html"><strong>Mulai</strong><a/>',
                 footer: 'Main dari level 1 dulu ya bosqueee 😎',
                 showConfirmButton: false,
                 allowOutsideClick: false,
