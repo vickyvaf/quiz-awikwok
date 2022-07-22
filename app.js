@@ -1,4 +1,4 @@
-function start () {
+function start() {
     Swal.fire({
         imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_si9TVBZW8GlXjmukTRzSiQFxmPtk_xMn6HzWVauxuwv7iyjl',
         imageWidth : 250,
@@ -14,7 +14,7 @@ function start () {
         if (result.isConfirmed) {
             Swal.fire({
                 title: '<a href="level-1.html"><strong>Level 1</strong><a/>',
-                footer: 'Main dari level 1 dulu ya bosque 😎',
+                footer: 'Main dari level 1 dulu ya bosqueee 😎',
                 showConfirmButton: false,
                 allowOutsideClick: false,
                 showCloseButton: true,
@@ -38,10 +38,10 @@ function caraMain() {
     Swal.fire({
         imageUrl: 'https://cdn141.picsart.com/354073044035211.png?to=crop&type=webp&r=310x310&q=50',
         imageWidth: 200,
-        text: 'Ngapain liat tutorial, tinggal main aja cuy 🤣 \n Game ini sangat mudah pake banget lochhh 😏',
-        confirmButtonText: 'Saya Mengerti',
-        confirmButtonColor: "#FFC100",
+        html: 'Ngapain liat tutorial, tinggal main aja cuy 🤣 Game ini sangat mudah pake banget lochhh 😏',
+        showConfirmButton: false,
         allowOutsideClick: false,
+        showCloseButton: true,
     })
 }
 
@@ -380,15 +380,13 @@ function jawab10() {
             confirmButtonText: "Season 2",
             confirmButtonColor: "#01A66F",
             allowOutsideClick: false,
-            showCloseButton: true,
         }).then((result) => {
             if (result.isConfirmed) {
                 Swal.fire({
-                    text: 'Untuk season 2 sedang tahap pengembangan. Makasih ya cuy udah nyelesain sampe level 10 Nice lah 🔥 gg gimang ma boi 😎',
+                    text: 'Untuk season 2 sedang tahap pengembangan. Makasih ya cuy udah nyelesain sampe level 10. Nice lah 🔥 gg gimang ma boi 😎',
                     footer: '<a href="index.html">Back to homepage</a>',
                     showConfirmButton: false,
                     allowOutsideClick: false,
-                    showCloseButton: true,
                 })
             }
         })
@@ -413,4 +411,14 @@ function jawab10() {
             showCloseButton: true,
         });
     }
+}
+
+function info() {
+    Swal.fire({
+        html: '<strong>Mini VQuiz</strong>',
+        footer: 'Dibuat dengan HTML, CSS, JavaScript, dan Sweet Alert 2. Terinspirasi dari game Tebak Gambar yang terdapat di play store atau app store.',
+        showConfirmButton: false,
+        allowOutsideClick: false,
+        showCloseButton: true,
+    })
 }
